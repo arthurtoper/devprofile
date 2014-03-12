@@ -29,5 +29,9 @@ Plugins
 
 Vim plugins, using Pathogen, are set up as Git submodules to make maintenance easier. To add a new one, use the following command:
 
-git submodule add <git repo URL> home/.vim/bundles/<plugin name>
+	git submodule add <git repo URL> home/.vim/bundles/<plugin name>
+
+To update all plugins, you can use the following command:
+
+	git submodule foreach git pull origin master
 
