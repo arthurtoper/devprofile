@@ -25,9 +25,6 @@
 [submodule "home/.vim/bundles/dart"]
 	path = home/.vim/bundles/dart
 	url = git://github.com/bartlomiejdanek/vim-dart.git
-[submodule "home/.vim/bundles/golang"]
-	path = home/.vim/bundles/golang
-	url = git://github.com/jnwhiteh/vim-golang.git
 [submodule "home/.vim/bundles/rails"]
 	path = home/.vim/bundles/rails
 	url = git://github.com/tpope/vim-rails.git
@@ -40,3 +37,6 @@
 [submodule "home/.oh-my-zsh"]
 	path = home/.oh-my-zsh
 	url = git://github.com/robbyrussell/oh-my-zsh.git
+[submodule "home/.vim/bundles/vim-go"]
+	path = home/.vim/bundles/vim-go
+	url = https://github.com/fatih/vim-go.git
