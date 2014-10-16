@@ -24,7 +24,9 @@ set undodir=~/.vim/undo//
 
 set omnifunc=syntaxcomplete#Complete
 
-colorscheme Tomorrow-Night
+let base16colorspace=256
+"colorscheme Tomorrow-Night
+colorscheme base16-tomorrow
 
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
