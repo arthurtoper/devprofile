@@ -3,3 +3,7 @@
 **/xmonad.hi
 **/xmonad.o
 **/xmonad-x86_64-linux
+home/.vim/backup/*
+home/.vim/swap/*
+home/.vim/undo/*
+!/**/.gitkeep

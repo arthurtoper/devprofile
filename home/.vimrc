@@ -18,6 +18,9 @@ set autoindent
 set number
 set linebreak
 set cindent
+set backupdir=~/.vim/backup//
+set directory=~/.vim/swap//
+set undodir=~/.vim/undo//
 
 set omnifunc=syntaxcomplete#Complete
 
@@ -32,6 +35,7 @@ set history=50		" keep 50 lines of command line history
 set ruler		" show the cursor position all the time
 set showcmd		" display incomplete commands
 set incsearch		" do incremental searching
+set list
 
 " Don't use Ex mode, use Q for formatting
 map Q gq
@@ -70,5 +74,13 @@ set softtabstop=4
 set shiftwidth=4 
 set noexpandtab
 
+if has("autocmd")
+	filetype on
+	" ...except for Ruby
+	autocmd FileType ruby setlocal ts=2 sts=2 sw=2 expandtab
+endif
+
 " Show invisible characters.
 set listchars=tab:▸\ ,eol:¬
+
+let g:vim_markdown_folding_disabled=1
