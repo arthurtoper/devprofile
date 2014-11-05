@@ -52,3 +52,6 @@
 [submodule "home/.vim/bundles/vim-unimpaired"]
 	path = home/.vim/bundles/vim-unimpaired
 	url = https://github.com/tpope/vim-unimpaired.git
+[submodule "home/.vim/bundles/command-t"]
+	path = home/.vim/bundles/command-t
+	url = https://github.com/wincent/command-t.git
