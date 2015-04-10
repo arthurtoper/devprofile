@@ -1,0 +1,14 @@
+"*":
+  "exception-reporting":
+    userId: "4a2e8264-7360-f71f-c90f-c26ed694e115"
+  welcome:
+    showOnStartup: false
+  core:
+    themes: [
+      "one-dark-ui"
+      "base16-tomorrow-dark-theme"
+    ]
+  editor:
+    invisibles: {}
+    fontFamily: "Source Code Pro for Powerline"
+    fontSize: 14
