@@ -52,11 +52,11 @@ if has('mouse')
   set mouse=a
 endif
 
-" if has('gui_running')
+if has('gui_running')
   set guifont=Hack:h11
   set lines=50
   set columns=90
-" endif
+endif
 
 " Convenient command to see the difference between the current buffer and the
 " file it was loaded from, thus the changes you made.
