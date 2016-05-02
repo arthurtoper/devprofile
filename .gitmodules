@@ -55,3 +55,6 @@
 [submodule "home/.vim/bundles/command-t"]
 	path = home/.vim/bundles/command-t
 	url = https://github.com/wincent/command-t.git
+[submodule "home/.vim/bundles/vim-notes"]
+	path = home/.vim/bundles/vim-notes
+	url = https://github.com/xolox/vim-notes.git
