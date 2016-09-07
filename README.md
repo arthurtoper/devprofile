@@ -19,6 +19,16 @@ There's a super-simple 'createlinks.sh' script which symlinks the contents of th
 1. git clone this repository to somewhere sensible
 2. run createlinks.sh
 
+Alternatively, you can do something along these lines:
+
+```bash
+git clone https://github.com/arthurtoper/devprofile.git ~/devprofile
+~/devprofile/createlinks.sh
+cd ~/devprofile && git submodule init && git submodule update
+```
+
+An example `devprofile.sh` script is included in this repo, designed for use with Vagrant and a Ubuntu guest.
+
 Updating
 ----------
 
