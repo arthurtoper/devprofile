@@ -1,0 +1,1 @@
+/Users/arthurtoper/.vimrc
