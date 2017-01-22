@@ -67,3 +67,6 @@
 [submodule "home/.vim/bundles/vim-javascript-syntax"]
 	path = home/.vim/bundles/vim-javascript-syntax
 	url = https://github.com/jelera/vim-javascript-syntax.git
+[submodule "home/.vim/bundles/neomake"]
+	path = home/.vim/bundles/neomake
+	url = https://github.com/neomake/neomake.git

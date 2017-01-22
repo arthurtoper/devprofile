@@ -89,3 +89,5 @@ endif
 set listchars=tab:▸\ ,eol:¬
 
 let g:vim_markdown_folding_disabled=1
+
+autocmd! BufWritePost * Neomake
