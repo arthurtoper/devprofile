@@ -53,7 +53,7 @@ if has('mouse')
 endif
 
 if has('gui_running')
-  set guifont=Hack:h12
+  "set guifont=Hack\ Regular:h12
   set lines=50
   set columns=90
 endif
