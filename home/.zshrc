@@ -51,7 +51,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/go/bin:/usr/local/heroku/bin:/Users/arthurtoper/Development/kube:/Users/arthurtoper/Development/protobuf/bin"
+export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/go/bin:/usr/local/heroku/bin:/Users/arthurtoper/Development/kube:/Users/arthurtoper/Development/protobuf/bin:$HOME/.local/bin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # # Preferred editor for local and remote sessions

@@ -73,3 +73,6 @@
 [submodule "home/.vim/bundles/bbye"]
 	path = home/.vim/bundles/bbye
 	url = https://github.com/moll/vim-bbye.git
+[submodule "home/.vim/bundles/editorconfig"]
+	path = home/.vim/bundles/editorconfig
+	url = https://github.com/editorconfig/editorconfig-vim.git
