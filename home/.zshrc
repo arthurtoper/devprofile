@@ -45,7 +45,7 @@ ZSH_THEME="agnoster"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git osx zsh-syntax-highlighting nvm)
+plugins=(git osx zsh-syntax-highlighting nvm kubectl)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -60,6 +60,18 @@ export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/loca
 # else
 #   export EDITOR='mvim'
 # fi
+
+# some neovim stuff
+
+export VISUAL=nvim
+
+alias vim=nvim
+alias vi=nvim
+
+export VIMCONFIG=~/.config/nvim
+export VIMDATA=~/.local/share/nvim
+
+export PATH=$PATH:$VIMCONFIG/pack/minpac/start/fzf/bin
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
