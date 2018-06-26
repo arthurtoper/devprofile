@@ -76,3 +76,6 @@
 [submodule "home/.vim/bundles/editorconfig"]
 	path = home/.vim/bundles/editorconfig
 	url = https://github.com/editorconfig/editorconfig-vim.git
+[submodule "home/.config/nvim/pack/minpac/opt/minpac"]
+	path = home/.config/nvim/pack/minpac/opt/minpac
+	url = https://github.com/k-takata/minpac.git
