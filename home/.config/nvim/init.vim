@@ -34,7 +34,7 @@ command! PackClean call minpac#clean()
 
 " FZF Mappings
 
-nnoremap <C-p> :<C-u>call fzf#run({'source': 'fd --type f', 'down': '40%'})<CR>
+nnoremap <C-p> :<C-u>call fzf#run({'source': 'fd --type f', 'down': '40%', 'sink': 'e'})<CR>
 
 set termguicolors
 colorscheme one
