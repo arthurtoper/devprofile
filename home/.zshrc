@@ -45,13 +45,13 @@ ZSH_THEME="agnoster"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git osx zsh-syntax-highlighting nvm kubectl)
+plugins=(git osx zsh-syntax-highlighting nvm kubectl rvm ruby)
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/go/bin:/usr/local/heroku/bin:/Users/arthurtoper/Development/kube:/Users/arthurtoper/Development/protobuf/bin:$HOME/.local/bin:$PATH"
+export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/go/bin:/usr/local/heroku/bin:/Users/arthurtoper/Development/kube:/Users/arthurtoper/Development/protobuf/bin:$HOME/.local/bin:/usr/local/opt/qt@5.5/bin:/usr/local/opt/postgresql@9.4/bin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # # Preferred editor for local and remote sessions
@@ -95,3 +95,6 @@ export NVM_DIR="$HOME/.nvm"
 
 # Improved grep alias
 alias grep="grep --color=auto --exclude-dir={.bzr,CVS,.git,.hg,.svn,node_modules}"
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
