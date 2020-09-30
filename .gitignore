@@ -8,4 +8,5 @@ home/.vim/swap/*
 home/.vim/undo/*
 home/.config/nvim/.netrwhist
 home/.config/nvim/pack/minpac/start/*
+**/node_modules
 !/**/.gitkeep

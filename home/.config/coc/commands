@@ -1,0 +1,4 @@
+tsserver.reloadProjects
+tsserver.restart
+eslint.executeAutofix
+eslint.createConfig
